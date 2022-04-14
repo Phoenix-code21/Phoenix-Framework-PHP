@@ -1,0 +1,23 @@
+{
+    "name": "root/framework",
+    "description": "Phoenix Framework by Phoenix-code21",
+    "autoload": {
+        "psr-4": {
+            "App\\":"App"
+        },
+        "files": [
+           "App/Helpers/Helpers.php",
+           "App/Security/Csrf.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Phoenix-code21",
+            "email": "gabrielaparecido344@outlook.com"
+        }
+    ],
+    "require": {
+        "coffeecode/router": "^1.0",
+        "coffeecode/datalayer": "^1.1"
+    }
+}
